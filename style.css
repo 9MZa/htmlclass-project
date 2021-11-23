@@ -1,0 +1,194 @@
+body {background-color:#f5f5f5;
+	text-align:center;} 
+
+#container
+{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+#header
+{
+	padding: 40px;
+	font-family: supermarket; 
+	text-align: center;
+	color: #707070;
+
+}
+
+
+#header h1 { margin: 0; font-size: 65px; }
+
+#header h2 {font-size: 35px}
+
+
+
+#nav { float: left; width: 100%; overflow: hidden; position: relative; margin: 40px 0 0 0; border-top: 5px #     solid; border-bottom: 2px #C8C8C8  solid; padding: 12px 0 8px 0; }
+#nav ul { clear: left; float: left; margin: 0; padding: 0; position: relative; left: 50%; text-align: center;}
+#nav ul li { float: left; list-style: none; margin: 0; padding: 0; position: relative; right: 45%; }
+#nav ul li a {  margin: 0 0 0 1px; padding: 2px 0; font-size: 30px; color: #505050 ; text-transform: uppercase; text-decoration:none;}
+#nav ul li a:hover { color: #0072bc; }
+#nav li span { padding: 0 40px; color: #444; font-size: 16px;}
+#nav li a.current{ color: #0072bc; }
+#nav {font-family: supermarket; }
+
+
+@font-face {
+ font-family: TH Krub;
+ src: url("fonts/TH Krub.eot"); /* EOT file for IE */
+}
+@font-face {
+ font-family: TH Krub;
+ src: url("fonts/TH Krub.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: supermarket;
+ src: url("fonts/supermarket.eot"); /* EOT file for IE */
+}
+@font-face {
+ font-family: supermarket;
+ src: url("fonts/supermarket.ttf") /* TTF file for CSS3 browsers */
+}
+
+#content
+{
+	clear: left;
+	font-size: 22px;
+	font-family: TH Krub;
+	text-align: justify;
+	text-indent: 3em;
+	color: #585858  ;
+}
+
+#contentcerter
+{
+	clear: left;
+	font-size: 22px;
+	font-family: TH Krub;
+	text-align: justify;
+	color: #585858  ;
+	text-align: center;
+}
+
+#about
+{
+	clear: center;
+	font-size: 24px;
+	font-family: TH Krub;
+	text-indent: 0.1em;
+	color: #585858  ;
+}
+
+#headcontent
+{
+	color:#000;
+	font-size: 35px;
+	clear: left;
+	solid; padding: 1px 0 0px 0;
+	font-family: TH Krub;
+	text-align: center;
+	color: #700000;
+	font-weight: bold;
+}
+
+#footer
+{
+
+	margin: 40px 0 5px 0;
+	solid; padding: 5px 0 8px 0;
+	text-align: center;
+	border-top: 2px #C8C8C8 solid;
+	font-size: 24px;
+	color: #aaa;
+	margin-top: 20px;
+	font-family: TH Krub;
+}
+
+#fourcolumns {
+    width: 100%;
+    overflow: hidden;
+}
+
+#fourcolumns div {
+    width: 25%;
+    float: left;
+	text-align: center;
+	font-size: 22px;
+	font-family: TH Krub;
+	color: #585858   ;
+	solid; padding: 0px 0 26px 0;
+}
+
+#threecolumns {
+    width: 50%;
+    overflow: hidden;
+	margin: 0px auto;
+	
+}
+
+#threecolumns div {
+    width: 33.33%;
+    float: left;
+	text-align: center;
+	font-size: 22px;
+	font-family: TH Krub;
+	color: #585858   ;
+	solid; padding: 0px 0 26px 0;
+}
+
+#threefavorite {
+    width: 85%;
+    overflow: hidden;
+	margin: 0px auto;
+	
+}
+
+#threefavorite div {
+    width: 33.33%;
+    float: left;
+	text-align: center;
+	font-size: 22px;
+	font-family: TH Krub;
+	color: #585858   ;
+	solid; padding: 0px 0 26px 0;
+}
+
+#twof {
+    width: 100%;
+    overflow: hidden;
+	margin: 0px auto;
+	
+}
+
+#twof div {
+    width: 50%;
+    float: left;
+	text-align: center;
+	font-size: 22px;
+	font-family: TH Krub;
+	color: #585858   ;
+	solid; padding: 0px 0 26px 0;
+}
+
+
+#line{
+    border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#photoabout {
+    border-radius: 5px;
+    -moz-border-radius: 5px;/*ขนาดความโค้ง*/
+    -webkit-border-radius: 5px;/*ขนาดความโค้ง*/
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.65);/*ขนาดเงา*/
+    height: 246px;
+    width: 239px;
+	position: relative; left: 38%; /*ตำแหน่งรูปภาพ*/
+ }
+
+ #fphoto{
+	border: 1px solid #ccc; padding: 5px;"
+}
